@@ -8,6 +8,6 @@ setado para true diz para retornar o novo registro.
 o runValidators é para que as validações ocorram
 no update também (por default elas não ocorrem)
 */
-Todo.updateOption({new:true, runValidators:true})
+Todo.updateOptions({new:true, runValidators:true})
 
 module.exports = Todo
